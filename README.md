@@ -15,6 +15,7 @@ This project is derived from the following projects:
   - [Adafruit-ADXL343-ADT7410-Featherwing-PCB](https://github.com/adafruit/Adafruit-ADXL343-ADT7410-Featherwing-PCB)
   - [Adafruit-BNO055-Breakout-PCB](https://github.com/adafruit/Adafruit-BNO055-Breakout-PCB)
   - [Adafruit-BME280-Breakout-PCB](https://github.com/adafruit/Adafruit-BME280-Breakout-PCB)
+
 Thanks to Adafruit for their open-source schematics!
 
 ## License ##
