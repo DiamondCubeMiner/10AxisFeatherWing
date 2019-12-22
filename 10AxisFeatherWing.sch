@@ -3519,6 +3519,9 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="139.7" x2="50.8" y2="139.7" width="0.1524" layer="91"/>
 <junction x="50.8" y="139.7"/>
+<pinref part="U1" gate="G$1" pin="VDDIO"/>
+<wire x1="53.34" y1="137.16" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="137.16" x2="50.8" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="NBOOT_LOAD_PIN"/>

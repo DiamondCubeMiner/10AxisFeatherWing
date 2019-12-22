@@ -749,12 +749,6 @@ einem neuen Namen ab.</description>
 </elements>
 <signals>
 <signal name="GND">
-<polygon width="0.254" layer="16">
-<vertex x="0" y="22.86"/>
-<vertex x="50.8" y="22.86"/>
-<vertex x="50.8" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
 <contactref element="MS1" pad="4"/>
 <contactref element="JP1" pad="13"/>
 <contactref element="U1" pad="25"/>
@@ -1034,9 +1028,6 @@ einem neuen Namen ab.</description>
 <contactref element="JP1" pad="15"/>
 <wire x1="8.89" y1="3.81" x2="8.89" y2="1.27" width="0.254" layer="1"/>
 </signal>
-<signal name="VDDIO">
-<contactref element="U1" pad="28"/>
-</signal>
 <signal name="3.3V">
 <contactref element="U1" pad="3"/>
 <contactref element="C1" pad="2"/>
@@ -1103,10 +1094,9 @@ einem neuen Namen ab.</description>
 <wire x1="39.37" y1="10.668" x2="40.64" y2="9.398" width="0.254" layer="16"/>
 <wire x1="39.37" y1="13.462" x2="39.37" y2="10.668" width="0.254" layer="1"/>
 <wire x1="36.576" y1="16.256" x2="39.37" y2="13.462" width="0.254" layer="1"/>
-<wire x1="26.67" y1="16.256" x2="36.576" y2="16.256" width="0.254" layer="1"/>
-<wire x1="26.416" y1="16.002" x2="26.67" y2="16.256" width="0.254" layer="1"/>
+<wire x1="26.748" y1="16.256" x2="36.576" y2="16.256" width="0.254" layer="1"/>
 <wire x1="41.91" y1="10.414" x2="41.91" y2="10.58" width="0.254" layer="1"/>
-<wire x1="26.416" y1="16.002" x2="26.25" y2="15.875" width="0.254" layer="1"/>
+<wire x1="26.748" y1="16.256" x2="26.25" y2="15.875" width="0.254" layer="1"/>
 <wire x1="20.32" y1="13.716" x2="16.256" y2="13.716" width="0.254" layer="16"/>
 <via x="23.114" y="7.874" extent="1-16" drill="0.5"/>
 <via x="20.574" y="8.128" extent="1-16" drill="0.5"/>
@@ -1114,6 +1104,13 @@ einem neuen Namen ab.</description>
 <via x="40.64" y="9.398" extent="1-16" drill="0.5"/>
 <via x="39.37" y="10.668" extent="1-16" drill="0.5"/>
 <via x="16.256" y="13.716" extent="1-16" drill="0.5"/>
+<contactref element="U1" pad="28"/>
+<wire x1="27.336775" y1="13.2248" x2="27.5302" y2="13.418225" width="0.254" layer="1"/>
+<wire x1="27.5302" y1="13.418225" x2="27.5302" y2="15.211775" width="0.254" layer="1"/>
+<wire x1="26.9625" y1="13.18" x2="27.0073" y2="13.2248" width="0.254" layer="1"/>
+<wire x1="27.0073" y1="13.2248" x2="27.336775" y2="13.2248" width="0.254" layer="1"/>
+<wire x1="27.5302" y1="15.211775" x2="26.866975" y2="15.875" width="0.254" layer="1"/>
+<wire x1="26.25" y1="15.875" x2="26.866975" y2="15.875" width="0.254" layer="1"/>
 </signal>
 <signal name="CAP">
 <contactref element="U1" pad="9"/>
