@@ -3290,7 +3290,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="U$8" library="microbuilder" deviceset="GND" device="">
 <attribute name="SPICEGROUND" value=""/>
 </part>
-<part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="22uF">
+<part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="22pF">
 <spice>
 <pinmapping isusermap="yes" isdevicewide="yes">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
@@ -3299,7 +3299,7 @@ DIN A4, landscape with location and doc. field</description>
 </spice>
 <attribute name="SPICEPREFIX" value="C"/>
 </part>
-<part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="22uF">
+<part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="22pF">
 <spice>
 <pinmapping isusermap="yes" isdevicewide="yes">
 <pinmap gate="G$1" pin="1" pinorder="1"/>
