@@ -18,5 +18,9 @@ This project is derived from the following projects:
 
 Thanks to Adafruit for their open-source schematics!
 
+Thanks to ppelleti for the awesome FeatherWing Template!
+
+[FeatherWing-template-KiCad](https://github.com/ppelleti/FeatherWing-template-KiCad)
+
 ## License ##
 This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or by opening license.txt included in this project.
