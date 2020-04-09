@@ -10,6 +10,8 @@ This project is designed to use [Adafruit Unified Sensor Drivers](https://github
   - [Adafruit_BNO055](https://github.com/adafruit/Adafruit_BNO055)
   - [Adafruit_BME280_Library](https://github.com/adafruit/Adafruit_BME280_Library/)
 
+If you are experiencing problems with the Adafruit_BME280_Library, you may use Seeed Studio's [Grove_BME280](https://github.com/Seeed-Studio/Grove_BME280) drivers. It has been tested to work with the 10AxisFeatherWing.
+
 ## Thanks ##
 This project is derived from the following projects:
   - [Adafruit-ADXL343-ADT7410-Featherwing-PCB](https://github.com/adafruit/Adafruit-ADXL343-ADT7410-Featherwing-PCB)
